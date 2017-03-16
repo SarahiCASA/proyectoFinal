@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sistemascasa.tigie.FractionActivity">
+
+    <include android:id="@+id/miActionBar"
+        layout="@layout/actionbar">
+    </include>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_below="@+id/miActionBar"
+        android:background="@color/colorDiverColor"
+        android:id="@+id/rlFracEncabezado">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/cap_01"
+            android:id="@+id/ivIconFrac"
+            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="17dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvSubpartida"
+            android:text="@string/tvSubpartida"
+            android:layout_marginTop="6dp"
+            android:layout_toRightOf="@+id/ivIconFrac"
+            android:layout_toEndOf="@+id/ivIconFrac"
+            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp"
+            style="@style/styleChapitulo"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/idTariffSubheading"
+            android:text="@string/id_subpartida"
+            android:layout_below="@+id/tvSubpartida"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="11dp"
+            android:layout_marginStart="11dp"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tariffSubheadingCode"
+            android:text="@string/subpartida"
+            android:textStyle="bold"
+            style="@style/styleChapituloCode"
+            android:layout_alignBaseline="@+id/tvSubpartida"
+            android:layout_alignBottom="@+id/tvSubpartida"
+            android:layout_alignLeft="@+id/tvSubpartida"
+            android:layout_alignStart="@+id/tvSubpartida"
+            android:layout_marginLeft="117dp"
+            android:layout_marginStart="117dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvSubpartida"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="15dp"
+            android:layout_alignLeft="@+id/tvSubpartida"
+            android:layout_alignStart="@+id/tvSubpartida">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tariffSubheadingDescription"
+                android:text="@string/subpartidaDesc"
+                style="@style/styleChapterDescr"
+                android:layout_marginRight="12dp"
+                android:layout_alignLeft="@+id/tvSubpartida"
+                android:layout_alignStart="@+id/tvSubpartida" />
+
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvFracciones"
+        android:text="@string/fracciones"
+        android:textStyle="bold"
+        style="@style/styleChapituloCode"
+        android:layout_below="@+id/rlFracEncabezado"
+        android:paddingLeft="@dimen/activity_vertical_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvFractions"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tvFracciones"
+        android:paddingLeft="@dimen/padding_left"
+        android:paddingRight="@dimen/padding_right"
+        android:paddingTop="@dimen/padding_top">
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>

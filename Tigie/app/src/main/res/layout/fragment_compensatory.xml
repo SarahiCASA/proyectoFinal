@@ -1,0 +1,64 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentsActivity.CompensatoryFragment">
+
+
+<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvCompensatory"
+        android:text="@string/text_compenatory"
+        style="@style/styleChapituloCode"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="5dip"
+        android:paddingLeft="10dip"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_chapters"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvFraccionCompensatory"
+        android:text="Fracción : "
+        style="@style/styleCode"
+        android:layout_marginTop="40dp"
+        android:paddingBottom="5dip"
+        android:paddingLeft="10dip"
+        android:textSize="18dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvFraccionCompensatoryCode"
+        android:text="0101010 "
+        style="@style/styleCode1"
+        android:layout_marginTop="40dp"
+        android:paddingBottom="5dip"
+        android:paddingLeft="110dip"
+        android:textSize="18dp"
+        />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:background="@color/colorAccent"
+        android:padding="25dip"
+        android:layout_below="@+id/tvFraccionCompensatory"
+        android:layout_marginTop="65dp"
+        android:id="@+id/fill_parent"/>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvCompensatory"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp"
+        android:layout_below="@+id/fill_parent">
+    </android.support.v7.widget.RecyclerView>
+
+</FrameLayout>

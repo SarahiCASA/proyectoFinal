@@ -1,0 +1,157 @@
+<resources>
+    <string name="app_name">Tarifa General</string>
+    <string name="capitulos">Capítulos</string>
+    <string name="search">Buscar</string>
+    <string name="id_chapter">1</string>
+    <string name="chapter">00</string>
+    <string name="chapterDescr">Sin descripción.</string>
+
+    <string name="idTariffChapter">idTariffChapter</string>
+    <string name="tariffChapterCode">tariffChapterCode</string>
+    <string name="tariffChapterDescription">tariffChapterDescription</string>
+    <string name="iconChapter">iconChapter</string>
+    <string name="idCapitulo">Capítulo :</string>
+    <string name="partida">Partidas :</string>
+    <string name="parti">Partida :</string>
+    <string name="subparti">Subpartida :</string>
+    <string name="fracc">Fracción :</string>
+
+    <string name="idSubheading">Partida : </string>
+    <string name="subheading">1234</string>
+    <string name="id_heading">2</string>
+    <string name="subheadingDescr">Sin descripción.</string>
+
+    <string name="subheadings">Subpartidas :</string>
+    <string name="idTariffHeading">idTariffHeading</string>
+    <string name="tariffHeadingCode">tariffHeadingCode</string>
+    <string name="tariffHeadingDescription">tariffHeadingDescription</string>
+
+
+    <string name="tvSubpartida">Subpartida :  </string>
+    <string name="subpartida">123456</string>
+    <string name="id_subpartida">2</string>
+    <string name="subpartidaDesc">Sin descripción.</string>
+
+    <string name="idTariffSubheading">idTariffSubheading</string>
+    <string name="tariffSubheadingCode">tariffSubheadingCode</string>
+    <string name="tariffSubheadingDescription">tariffSubheadingDescription</string>
+    <string name="fracciones">Fracciones</string>
+
+    <string name="tvInformation">Información General </string>
+
+
+    <!-- Inicio menú-->
+    <string name="menu_about">Acerca de...</string>
+    <string name="menu_email">Enviar comentarios</string>
+    <string name="menu_exit">Salir de la aplicación</string>
+    <string name="menu_chapters">Ir a capítulos</string>
+    <string name="menu_headings">Ir a partidas</string>
+    <string name="menu_subheadings">Ir a subpartidas</string>
+
+    <string name="texto_about"><b><i>Esta aplicación ha sido desarrollada en Android por Sarahi Camacho, con fines educativos.</i></b></string>
+
+    <string name="texto_about2"><b><i>EVAL CASA es una solución completa e integrada para la consulta de fracciones arancelarias, diseñada para satisfacer todas las necesidades exigentes de calidad.</i></b></string>
+    <string name="texto_email">Para suscribirse a la Tarifa de Impuesto General de Importación y Exportación deberá llenar el formulario siguiente:</string>
+    <string name="fav_text">Favoritos</string>
+    <!-- Fin menú-->
+
+    <!-- Inicio Email-->
+    <!--Other string resources also defined in this file… -->
+    <string name="email_name">Ingrese su nombre...</string>
+    <string name="email_correo">Ingrese su correo...</string>
+    <string name="ocupation_name">Ingrese su ocupación...</string>
+    <string name="e_name">Nombre:</string>
+    <string name="e_correo">Correo:</string>
+    <string name="e_spinner">Ocupación:</string>
+    <string name="e_comment">Empresa:</string>
+
+    <string name="feedbacktype">AuxiliarText</string>
+    <string name="feedbacktype1">Error</string>
+    <string name="feedbacktype2">Queja</string>
+    <string name="feedbacktype3">Sugerencia</string>
+    <string name="feedbacktype4">Elogio</string>
+
+
+    <!-- Inicio Fin Email-->
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string name="email_comment">Ingrese Nombre y Dirección de la Empresa...</string>
+    <string name="email_response">¿Le gustaría recibir un correo de respuesta?</string>
+    <string name="email_send">Enviar Correo</string>
+    <string name="mSearch">Buscar</string>
+    <string name="mFavourite">Marcar como favorito</string>
+
+    <string name="idText">idText</string>
+    <string name="codeText">codeText</string>
+    <string name="descripText">descripText</string>
+    <string name="idInt">idInt</string>
+    <string name="activity">activity</string>
+
+    <string name="chapters">chapters</string>
+    <string name="headings">headings</string>
+    <string name="subheadingsAct">subheadingsAct</string>
+    <string name="fractionsAct">fractionsAct</string>
+
+    <!-- Inicio Fin Email-->
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Inicio favoritos-->
+    <string name="fav_name">SharedPreferencesFavorites</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="favorites">Favorites</string>
+
+    <string name="add_favr">Added to Favorites</string>
+    <string name="remove_favr">Removed from Favorites</string>
+    <string name="no_favorites_items">No Favorites</string>
+    <string name="no_favorites_msg">Long press on item to add to favorites.</string>
+    <string name="favorites_remove_msg">Long press on item to remove from favorites.</string>
+
+
+    <string name="tlc">Tratados de Libre Comercio</string>
+    <string name="aladi">Aladi Preferencia</string>
+    <string name="alliance">Alianza del Pacífico</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Iniciar Sesión</string>
+    <string name="send_email">Registrarse</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+
+    <!-- Strings related to CompensatoryShares -->
+    <string name="text_compenatory">Cuotas Compensatorias</string>
+
+    <!-- Strings related to Prosec -->
+    <string name="text_prosec">Preferencias Arancelarias PROSEC</string>
+    <string name="prosecIndustry">Industria : </string>
+    <string name="prosecRate">Tasa :</string>
+    <string name="prosecNote">Nota :</string>
+    <string name="prosecDof">DOF :</string>
+
+    <!-- Strings related to Annex -->
+    <string name="text_Annex">Anexos</string>
+    <string name="annex">Annexo : </string>
+    <string name="titleAnnex">Padrón sectorial de Importadores</string>
+    <string name="noteAnnex">Nota :</string>
+    <string name="dofAnnex">DOF :</string>
+
+    <!-- Strings related to Border -->
+    <string name="text_border">Franja Fronteriza</string>
+    <string name="borderRate">Tasa %: </string>
+    <string name="borderNote">Nota :</string>
+    <string name="borderDof">DOF :</string>
+</resources>
